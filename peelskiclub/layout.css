@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+/* #hero {
+  height: 100vh;
+  width: 100%;
+  background: url("./images/12.jpg") no-repeat center / cover;
+} */
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .info h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Changes to this */
+.main-menu {
+  background-color: #58a5dd;
+
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  /* added below */
+  align-items: center;
+  color: #ffffff;
+}
+
+.main-menu a {
+  color: #ffffff;
+
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.main-menu a::after {
+  text-decoration: none;
+}
+
+.main-menu a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-menu a:visited {
+  color: #ffffff;
+}
+
+.main-menu a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* added this */
+.nav-links {
+  font-size: 20px;
+  margin-right: 10%;
+  color: #ffffff;
+}
+
+.middle-container {
+  background-color: #58a5dd;
+  padding: 250px;
+
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  flex-direction: column;
+}
+.middle-container h1:first-child {
+  text-decoration: underline;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100vh;
+}
+#menu-inside img {
+  height: 100vh;
+}
+
+/* Changes here */
+.top {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg_img {
+  width: 100vw;
+}
+body {
+  overflow-x: hidden;
+}
+.videos-container {
+  background-color: #58a5dd;
+  padding: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 20px;
+
+  text-decoration: underline;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: rgb(255, 255, 255);
+}
+
+div iframe {
+  margin: 20px;
+}
+
+.bottom-container {
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+
+  gap: 40px;
+}
+
+.about-images {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-images img {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.about-middle {
+  padding: 250px;
+  background-color: #58a5dd;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  flex-direction: column;
+}
+.about-middle h1:first-child {
+  text-decoration: underline;
+}
