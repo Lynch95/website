@@ -77,7 +77,7 @@ html {
 
 .middle-container {
   background-color: #58a5dd;
-  padding: 250px;
+  padding: 200px;
   flex-direction: column;
   color: white;
   display: flex;
@@ -130,10 +130,6 @@ body {
   max-width: 1200px;
 }
 
-.videos-4 {
-  align-self: flex-start;
-}
-
 .fa {
   padding: 20px;
 
@@ -181,7 +177,7 @@ div iframe {
 }
 
 .about-middle {
-  padding: 250px;
+  padding: 200px;
   background-color: #58a5dd;
   color: #ffffff;
   display: flex;
