@@ -78,15 +78,16 @@ html {
 .middle-container {
   background-color: #58a5dd;
   padding: 250px;
-
+  flex-direction: column;
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+
   font-family: sans-serif;
   font-size: 25px;
-  flex-direction: column;
+  line-height: 1.6;
 }
+
 .middle-container h1:first-child {
   text-decoration: underline;
 }
@@ -117,15 +118,22 @@ body {
   background-color: #58a5dd;
   padding: 300px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  gap: 75px;
   font-family: sans-serif;
   font-size: 20px;
-
-  text-decoration: underline;
   color: white;
 }
+
+.videos-container iframe {
+  max-width: 1200px;
+}
+
+.videos-4 {
+  align-self: flex-start;
+}
+
 .fa {
   padding: 20px;
 
@@ -146,11 +154,9 @@ body {
   background: #3b5998;
   color: rgb(255, 255, 255);
 }
-
 div iframe {
   margin: 20px;
 }
-
 .bottom-container {
   padding: 50px;
   background-color: #ffffff;
