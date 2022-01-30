@@ -178,7 +178,7 @@ div iframe {
 
 .about-middle {
   padding: 200px;
-  background-color: #58a5dd;
+ background-color: #58a5dd;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -189,4 +189,19 @@ div iframe {
 }
 .about-middle h1:first-child {
   text-decoration: underline;
+}
+
+.spital-middle {
+ background-color: #ffffff;
+  
+}
+.spital-middle img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
 }
