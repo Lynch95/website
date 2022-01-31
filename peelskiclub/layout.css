@@ -193,15 +193,28 @@ div iframe {
 
 .spital-middle {
  background-color: #ffffff;
+
   
 }
 .spital-middle img {
   width: 100%;
   height: 100%;
   max-width: 100%
-  
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
+  
 }
+
+.spital-bottom {
+  gap: 40px;
+  display: flex;
+  
+justify-content: center;
+  margin-top: 80px;
+}
+  
+.spit-images {
+justify-content: center;
+align-items: center;
