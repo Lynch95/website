@@ -19,7 +19,6 @@ html {
 .container {
   width: 90%;
   height: 100%;
-  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -29,6 +28,10 @@ html {
 .container .info h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+}
+
+.navTitle{
+  margin-right: 40%;
 }
 
 /* Changes to this */
@@ -77,12 +80,12 @@ html {
 
 .middle-container {
   background-color: #58a5dd;
-  padding: 200px;
   flex-direction: column;
   color: white;
   display: flex;
   align-items: center;
-
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   font-family: sans-serif;
   font-size: 25px;
   line-height: 1.6;
@@ -154,12 +157,11 @@ div iframe {
   margin: 20px;
 }
 .bottom-container {
-  padding: 50px;
+
   background-color: #ffffff;
   display: flex;
   justify-content: center;
 
-  gap: 40px;
 }
 
 .about-images {
@@ -171,6 +173,7 @@ div iframe {
   justify-content: center;
 }
 
+/* todo */
 .about-images img {
   max-width: 1200px;
   width: 100%;
@@ -209,6 +212,7 @@ div iframe {
   justify-content: center;
 }
 
+/* todo */
 .spital-bottom img {
   max-width: 1200px;
   width: 100%;
@@ -222,4 +226,54 @@ div iframe {
 .googlemaps h2 {
   text-align: center;
   color: #ffffff;
+}
+
+.text-center {
+  width: 60%;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 10px !important;
+  }
+  .top img {
+    display: none;
+  }
+  .top h1 {
+    font-size: 22px !important;
+    margin-left: 1rem;
+  }
+  .middle-container p, .about-middle p {
+    font-size: 12px !important;
+  }
+  .bottom-container {
+    flex-wrap: none;
+  }
+  .bottom-container img {
+    width: 200px;
+  }
+  .carousel, .carousel img {
+    height: 17rem !important;
+}
+.videos-container {
+  background-color: #58a5dd;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.videos-container iframe{
+  width: 350px !important;
+}
+.spital {
+  display: none !important; 
+}
 }
