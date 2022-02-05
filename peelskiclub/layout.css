@@ -234,7 +234,6 @@ div iframe {
   margin-top: 20px;
 }
 
-
 .googlemaps {
   padding: 200px;
   background-color: #58a5dd;
@@ -242,7 +241,6 @@ div iframe {
 
 .googlemaps h2 {
   text-align: center;
-  
 }
 
 .text-center {
@@ -295,5 +293,4 @@ div iframe {
   .spital {
     display: none !important;
   }
-
-  
+}
