@@ -114,6 +114,7 @@ html {
 
 .bg_img {
   width: 100vw;
+  height: 100vh;
 }
 body {
   overflow-x: hidden;
@@ -268,7 +269,7 @@ div iframe {
   border: none !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   body {
     font-size: 10px !important;
   }
