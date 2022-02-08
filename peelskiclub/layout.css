@@ -238,6 +238,9 @@ div iframe {
 .googlemaps {
   padding: 200px;
   background-color: #58a5dd;
+  color: #ffffff;
+  border-radius: 50px;
+  margin-top: 40px;
 }
 
 .googlemaps h2 {
