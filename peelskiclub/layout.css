@@ -89,6 +89,7 @@ html {
   font-family: sans-serif;
   font-size: 25px;
   line-height: 1.6;
+  border-radius: 50px;
 }
 
 .middle-container h1:first-child {
@@ -245,6 +246,19 @@ div iframe {
 
 .text-center {
   width: 60%;
+}
+#more {
+  display: none;
+}
+
+#myBtn {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .navbar-toggler {

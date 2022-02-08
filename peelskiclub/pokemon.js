@@ -1,9 +1,15 @@
-const url = "https://pokeapi.co/api/v2/pokemon/pikachu";
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
 
-window.onload = function () {
-  const poke = document.getElementById("pokemon");
-  fetch(url)
-    .then((response) => response.json())
-    .then((data) => (poke.innerHTML = "<h1>" + data["species"]["name"])) +
-    "</h1>";
-};
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
