@@ -116,6 +116,11 @@ html {
   width: 100vw;
   height: 100vh;
 }
+
+.topimg {
+  height: 150px;
+}
+
 body {
   overflow-x: hidden;
 }
