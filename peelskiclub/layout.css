@@ -296,6 +296,7 @@ div iframe {
   }
 
   .bg_img {
-    height: 30rem;
+    width: 100% !important;
+    height: auto !important;
   }
 }
